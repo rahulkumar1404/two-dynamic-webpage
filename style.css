@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav {
+    width: 100%;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 25%;
+    text-align: center;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.first {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/1-bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+.first h1 {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px ;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    
+}
+.first p{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px ;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    
+}
+label{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px ;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    
+}
+
+@keyframes change {
+    0% {
+        background-image: url("./img/1-bg-1.jpg");
+    }
+    20% {
+        background-image: url("./img/1-bg-2.jpg");
+    }
+    40% {
+        background-image: url("./img/1-bg-3.jpg");
+    }
+    40% {
+        background-image: url("./img/1-bg-4.jpg");
+    }
+    60% {
+        background-image: url("./img/1-bg-5.jpg");
+    }
+    80% {
+        background-image: url("./img/1-bg-6.jpg");
+    }
+    100% {
+        background-image: url("./img/1-bg-7.jpg");
+    }
+}
+
+.container {
+    width: 50%;
+    height: 100vh;
+    background: rgba(86, 86, 86, 0.6);
+    backdrop-filter: blur;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.list {
+    width: 34rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list .name {
+    font-size: 1.5rem;
+    display: inline;
+    word-spacing: 0.2rem;
+    white-space: pre-line;
+}
+
+.list #drop {
+    box-sizing: border-box;
+    font: 1.4rem sans-serif;
+    border-radius: 1.5rem;
+    border: 4rem;
+    background-color: transparent;
+    color: wheat;
+}
+
+.list #drop option {
+    background-color: #111;
+}
+
+.list .submit {
+    box-sizing: border-box;
+    font: 1.4rem sans-serif;
+    border-radius: -10px;
+    background-color: transparent;
+    color: #fff;
+    border-style: solid;
+    border: 70px 10px 70px 10px;
+    border-color: blue;
+    padding: 1px 12px 1px 12px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.list .submit:hover {
+    background-color: blue;
+}
+
+.list .btn  {
+    box-sizing: border-box;
+    font: 1.4rem sans-serif;
+    border-radius: -10px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(126, 48, 48);
+    border-style: solid;
+    border-color: blue;
+    padding: 1px 12px 1px 12px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.list .btn:hover {
+    background-color: blue;
+}
+.list .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.right {
+    width: 50%;
+    height: 100vh;
+    right: 20px;
+    top: 0;
+}
+
+.work {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding: -10px 50px 20px;
+    left: 800px;
+    top: 100px;
+}
+
+.work h1 {
+    color: #fff;
+    padding: 10px 50px 20px;
+    text-transform: capitalize;
+}
+
+.typing {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+.details {
+    top: 50%;
+    padding: 100px 10px 150px 10px;
+    background-color: wheat;
+    animation: changes 10s infinite ease-in-out;
+}
+
+@keyframes changes {
+    0% {
+        background-color: saddlebrown;
+    }
+    20% {
+        background-color: brown;
+    }
+    40% {
+        background-color: burlywood;
+    }
+    60% {
+        background-color: red;
+    }
+    0% {
+        background-color: lightcoral;
+    }
+}
+
+.Upload {
+    width: 750px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding: 20px 0px 10px 0px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.file {
+    width: 750px;
+    height: 50vh;
+    background-color: rgba(80, 80, 80, 0.6);
+    backdrop-filter: blur;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    color: #111;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.file .name {
+    font-size: 26px;
+    display: inline;
+    inset-block-end: 10px;
+    left: 0;
+    right: 50px;
+    padding: 15px 40px 20px 30px;
+}
+.name{
+    text-align: end;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px 10px 20px;
+}
+.table {
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
