@@ -15,7 +15,7 @@
 <body>
         <nav>
             <div class="logo">
-                <h3>SANJIVANI</h3>
+                <h3></h3>
             </div>
             <div class="menu">
                 <a href="#home">Home</a>
@@ -137,7 +137,7 @@
     height: 4%;
     bottom: -34px;
     text-transform: uppercase;">
-        <marquee behavior="scroll" direction="right"> SANJIVANI test done by RAHUL KUMAR</marquee>
+        <marquee behavior="scroll" direction="right">done by RAHUL KUMAR</marquee>
     </footer>
 </body>
 <script type="javascript" src="./js.js"></script>
